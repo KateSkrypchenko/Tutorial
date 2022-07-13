@@ -1,0 +1,62 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  color: tomato;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Селектори
+Універсальний *
+тега p
+id #text
+клас .text
+атрибут [href]
+дочірній .header > a
+нащадка .header a
+*/
+
+p {
+  color: crimson;
+}
+
+.text {
+  color: gray;
+}
+
+[href="https://www.google.com/"]
+{
+  color: blueviolet;
+}
+
+.header-tel {
+  color: black;
+}
+header a {
+  color: green;
+}
+
+.hero-after-title::selection {
+  background-color: violet;
+  color: #ffffff;
+}
+
+.header {
+  box-sizing: border-box;
+}
+
+.div1 {
+  margin-bottom: 20px;
+}
+
+.div2 {
+  margin-top: 80px;
+}
